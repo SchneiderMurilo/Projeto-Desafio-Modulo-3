@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 950px;
+
+    background-image: linear-gradient(to top, #5E5858, #3A3535, black);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContent {
+    display: flex;
+
+    flex-direction: column;
+    flex-grow: 1;
+
+}
+
+.title {
+    margin-top: 80px;
+    margin-bottom: 20px;
+
+    font-size: 32px;
+    color: white;
+    margin-left: 200px;
+}
+
+.pageContent {
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+
+    display: flex;
+    justify-content: space-around;
+
+    border-top: 2px solid gray;
+    flex-grow: 1;
+}
+
+.pageContent img {
+    height: 350px;
+}
+
+.cards {
+    cursor: pointer;
+
+    margin: 20px;
+    margin-top: 15px;
+    width: 350px;
+
+    text-align: justify;
+}
+
+.cards h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cards h3 {
+    color: #CCC3C3
+}
+
+.footer {
+    margin-top: 50px;
+    height: 160px;
+    width: 100%;
+
+    background-image: linear-gradient(to top, #5E5858, #3A3535, black);
+
+    display: flex;
+    align-items: center;
+
+}
+
+.playerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    flex-grow: 1;
+
+    margin-right: 220px;
+}
+
+.titleMusic {
+    margin-left: 25px;
+
+    min-width: 200px;
+    color: white;
+}
+
+.buttons {
+
+    display: flex;
+    align-items: center;
+
+
+}
+
+.buttons img {
+    cursor: pointer;
+
+    margin: 20px;
+}
+
+.buttons img:hover {
+    opacity: 0.8;
+}
+
+.timeBar {
+    width: 750px;
+    accent-color: #E5007B;
+    cursor: pointer;
+}
+
+.timeMusic {
+    display: flex;
+}
+
+.timeMusic p {
+    margin-left: 10px;
+    margin-right: 10px;
+
+    color: white;
+}
